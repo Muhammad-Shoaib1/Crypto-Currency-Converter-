@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+  font-size: 10px;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background: url(./images/background.png) no-repeat center;
+  background-size: cover;
+  padding: 1rem 6rem;
+}
+.container nav{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: #fff;
+}
+.container img{
+  width: 6rem;
+  height: 6rem;
+  cursor: pointer;
+}
+.container nav ul{
+  flex: 1;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+.container nav ul li{
+  margin: 1.5rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.container nav a{
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+  border: 1px solid;
+  width: 8rem;
+  border-radius: 20px;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  color: #fff;
+  margin: 11rem 0 0 5rem;
+}
+.content h1{
+  font-size: 7rem;
+  line-height: 8rem;
+  margin-bottom: 1rem;
+}
+.content h1 span{
+  color: #ff960b;
+}
+.content p{
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-bottom: 4rem;
+}
+.content a{
+  font-size: 2rem;
+  background-color: #ff960b;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  border-radius: 20px;
+}
+
+.coinList{
+  position: absolute;
+  bottom: 3rem;
+  right: 20rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 3rem;
+}
+.coin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  width: 15rem;
+  height: 7rem
+}
+.coin img{
+  width: 4rem;
+  height: 4rem;
+  margin-right: 10px;
+}
+.coin h3{
+  font-size: 1.7rem;
+}
+.coin p{
+  font-size: 1.4rem;
+  color: #ff960b;
+}
